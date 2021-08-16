@@ -37,6 +37,7 @@ main.content {
       max-width: 500px;
       max-height: 500px;
       object-fit: cover;
+
       @include smaller-than-tablet {
         max-height: 400px;
         max-height: 400px;
@@ -49,6 +50,7 @@ main.content {
   &__section:nth-child(odd) & {
     &__section-content-container {
       margin-right: 50px;
+
       @include smaller-than-tablet {
         margin-right: 0;
       }
@@ -58,6 +60,7 @@ main.content {
   &__section:nth-child(even) & {
     &__section-content-container {
       margin-left: 50px;
+
       @include smaller-than-tablet {
         margin-left: 0;
       }
@@ -77,9 +80,10 @@ main.content {
   &__section-title {
     font-family: $font_family_primary;
     font-size: 42px;
-    margin-bottom: $spacing--unit*3;
+    margin-bottom: $spacing--unit * 3;
     color: $color_darker;
     margin-top: 75px;
+
     @include smaller-than-tablet {
       margin-top: 50px;
       margin-bottom: 30px;
@@ -96,6 +100,7 @@ main.content {
   &__section-image {
     max-width: 500px;
     object-fit: cover;
+
     @include smaller-than-tablet {
       max-height: 400px;
       min-width: 100%;
@@ -108,16 +113,16 @@ main.content {
   .palette-#{$palette} {
     .gray-background,
     .page {
-      background-color: map-deep-get($theme-palettes, $palette, "lightest");
+      background-color: map-deep-get($theme-palettes, $palette, 'lightest');
     }
 
     .page {
       &__section-title {
-        color: map-deep-get($theme-palettes, $palette, "darker");
+        color: map-deep-get($theme-palettes, $palette, 'darker');
       }
 
       &__section-content {
-        color: map-deep-get($theme-palettes, $palette, "medium");
+        color: map-deep-get($theme-palettes, $palette, 'medium');
       }
     }
   }

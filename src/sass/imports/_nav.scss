@@ -41,7 +41,9 @@
     width: 25%;
   }
   &__logo-image {
-    height: 45px;
+    height: 50px;
+    width: auto;
+    max-width: unset;
   }
   &__total-items {
     @include smaller-than-tablet {
@@ -70,7 +72,7 @@
 
     path {
       @include smaller-than-tablet {
-        transition: .1s;
+        transition: 0.1s;
       }
     }
   }
@@ -97,7 +99,7 @@
     .button--transparent {
       path {
         @include smaller-than-tablet {
-          transition: .1s .2s;
+          transition: 0.1s 0.2s;
         }
       }
     }
@@ -113,8 +115,11 @@
   padding-top: 50px;
   margin-left: auto;
   margin-right: auto;
+
   @include smaller-than-tablet {
-    padding-top: 25px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
   }
 }
 
@@ -132,12 +137,12 @@
   .palette-#{$palette} {
     .nav {
       &--light {
-        color: map-deep-get($theme-palettes, $palette, "lighter");
+        color: map-deep-get($theme-palettes, $palette, 'lighter');
       }
 
       &--dark,
       &--opened {
-        color: map-deep-get($theme-palettes, $palette, "dark");
+        color: map-deep-get($theme-palettes, $palette, 'dark');
       }
     }
   }

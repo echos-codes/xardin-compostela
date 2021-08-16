@@ -17,14 +17,18 @@
   }
 
   &__content {
-    max-width: 450px;
+    width: 75vw;
+    max-width: 1000px;
     color: $color_medium;
     line-height: 150%;
     padding-bottom: 50px;
 
-    &:last-child { margin-bottom: 0 }
+    &:last-child {
+      margin-bottom: 0;
+    }
+
     &:after {
-      content:"";
+      content: '';
       margin-left: auto;
       margin-right: auto;
       margin-top: 50px;
@@ -33,18 +37,24 @@
       height: 3px;
       width: 60px;
     }
+
+    @include smaller-than-tablet {
+      width: auto;
+    }
   }
 
   &__title {
     font-family: $font_family_primary;
     font-weight: bold;
-    font-size: $font_size_xxlarge;
-    max-width: 600px;
+    font-size: $font_size_xlarge;
+    max-width: 80vw;
     color: $color_darker;
     margin-bottom: 50px;
     overflow: visible;
+
     @include smaller-than-tablet {
       font-size: $font_size_large;
+      width: auto;
     }
   }
 }
@@ -53,14 +63,14 @@
   .palette-#{$palette} {
     .header-section {
       &__content {
-        color: map-deep-get($theme-palettes, $palette, "medium");
+        color: map-deep-get($theme-palettes, $palette, 'medium');
         &:after {
-          background: map-deep-get($theme-palettes, $palette, "active");
+          background: map-deep-get($theme-palettes, $palette, 'active');
         }
       }
 
       &__title {
-        color: map-deep-get($theme-palettes, $palette, "darker");
+        color: map-deep-get($theme-palettes, $palette, 'darker');
       }
     }
   }

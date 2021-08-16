@@ -1,12 +1,12 @@
 ---
-title: Conócenos
+title: Contacto
 layout: advanced
 page_css_class: gray-background
 sections:
   - type: header_section
     section_id: header_section
     background_image: /images/leaf-light-grey.svg
-    headline: Xardín Compostela
+    headline: Xardin Compostela S.L.
     subtitle: >-
       Well, not really. We’re [Snipcart](http://bit.ly/2YB7AUL)—a bunch of geeks
       from Québec City. Planty is a theme we built for

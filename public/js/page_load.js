@@ -1,4 +1,3 @@
-window.onNextjsRouteChangeComplete = function() {
-window.addHamburgerMenuHandlers();
-
+window.onNextjsRouteChangeComplete = function () {
+  window.addHamburgerMenuHandlers();
 };

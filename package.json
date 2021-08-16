@@ -1,11 +1,10 @@
 {
-  "name": "planty",
-  "description": "Planty",
+  "name": "xardin-compostela",
+  "description": "Xardin Compostela website",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
-    "develop": "next dev",
     "fetch": "sourcebit fetch",
     "build": "next build && next export",
     "start": "next start"
