@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
+    "build": "next build && next export",
     "dev": "next dev",
     "fetch": "sourcebit fetch",
-    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {
