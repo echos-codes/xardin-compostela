@@ -52,8 +52,8 @@ sections:
   - type: contact_section
     image: images/promo.jpg
     section_id: contact_section
-    address: '226 rue St-Joseph E, Québec, QC, Canada, G1K 3A9'
-    phone: +1-202-555-0112
-    email: geeks@snipcart.com
-    mapUrl: 'https://goo.gl/maps/g6za62bN9BHrNTVt5'
+    address: 'Rúa de Muros, 51, 15896 Roxos, A Coruña'
+    phone: +34 981 537 320
+    email: contacto@xardincompostela.es
+    mapUrl: 'https://goo.gl/maps/PpER4efU4MVYQfnj9'
 ---

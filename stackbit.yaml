@@ -96,6 +96,8 @@ models:
     exclude:
       - store.md
       - index.md
+      - category/**
+      - products/**
     extends: advancedPageFields
   store:
     type: page

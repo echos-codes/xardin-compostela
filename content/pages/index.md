@@ -37,14 +37,14 @@ sections:
     testimonials:
       - author:
           name: John Dope
-          location: "Colorado, USA"
+          location: 'Colorado, USA'
         text: >-
           I didn't know the Snipcart guys were into herbs as well! How beautiful
           is that Planty theme. I'm going to launch a killer JAMstack e-commerce
           store using this for sure.
       - author:
           name: Major Payne
-          location: "VA, USA"
+          location: 'VA, USA'
         text: >-
           Well I'll be d*mned. These plants really ARE greener than any of my
           recruits.
@@ -59,4 +59,11 @@ sections:
   #     url: /store
   #     style: secondary
   #     arrow: true
+  - type: contact_section
+    image: images/promo.jpg
+    section_id: contact_section
+    address: 'Rúa de Muros, 51, 15896 Roxos, A Coruña'
+    phone: +34 981 537 320
+    email: contacto@xardincompostela.es
+    mapUrl: 'https://goo.gl/maps/PpER4efU4MVYQfnj9'
 ---

@@ -47,4 +47,11 @@ sections:
   #     url: /store
   #     style: primary
   #     arrow: true
+  - type: contact_section
+    image: images/promo.jpg
+    section_id: contact_section
+    address: 'Rúa de Muros, 51, 15896 Roxos, A Coruña'
+    phone: +34 981 537 320
+    email: contacto@xardincompostela.es
+    mapUrl: 'https://goo.gl/maps/PpER4efU4MVYQfnj9'
 ---
