@@ -16,7 +16,7 @@
     "marked": "3.0.x",
     "moment": "2.29.x",
     "moment-strftime": "0.5.x",
-    "next": "10.2.x",
+    "next": "11.1.x",
     "node-sass": "4.14.x",
     "node-sass-utils": "1.1.x",
     "react": "16.14.x",
