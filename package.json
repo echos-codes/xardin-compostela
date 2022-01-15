@@ -13,7 +13,7 @@
     "babel-runtime": "6.26.x",
     "classnames": "2.3.x",
     "lodash": "4.17.x",
-    "marked": "3.0.x",
+    "marked": "4.0.x",
     "moment": "2.29.x",
     "moment-strftime": "0.5.x",
     "next": "10.2.x",
