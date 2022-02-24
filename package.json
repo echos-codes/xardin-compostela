@@ -26,7 +26,7 @@
     "react-script-tag": "1.1.x",
     "sourcebit": "0.11.x",
     "sourcebit-source-filesystem": "0.1.x",
-    "sourcebit-target-next": "0.7.x",
+    "sourcebit-target-next": "0.8.x",
     "sprintf-js": "1.1.x"
   }
 }
